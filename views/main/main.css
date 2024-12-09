@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width:100%
+    
+}
+
+ section{
+    height: 100%;
+    width: 100%;
+    /* margin-left: 20vw;   */
+ }
+ main{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+ }
+
+ 
+ .tabs-bar {
+    background-color: #f46060;
+    width: 320px;
+    position: relative;
+    user-select: none;
+    height: 100%;
+}
+.tab {
+    background-color: None;
+    width: auto;
+}
+.tab__element {
+    /* margin-top: 40px; */
+    margin: 40px 5px 5px 5px;
+}
+.header {
+    text-align: left;
+
+    margin-bottom: 10px;
+    margin-: 20px;
+
+}
+
+.header__title {
+    
+}
+.tasks-list {
+    height: 100%;
+    width: 100%;
+
+}
+.title-of-tasks{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.title{
+    font-weight: bold;
+
+}
+.tasks-table {
+    position: relative;
+    float: right;
+    
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    
+    /* scrollbar-width: none; */
+    height: 100%;
+    width: 90%;
+}
+.task-row {
+}
+.task-element {
+    
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+
+}
+.add-new-task-section{
+    margin-left: 35px;
+}
+.task-element_undone {
+}
+.task-element__text {
+    vertical-align: middle;
+
+}
+.task-element__button {
+    vertical-align: middle;
+
+    width: 20px; height: 20px; 
+    background-color: #cacaca; 
+    background-blend-mode: screen;
+    border-radius: 50%;
+    border-style: solid; 
+    border-color: grey;
+
+}
+.task-element_done {
+}
+.footer {
+}
+.placeholer {
+}
